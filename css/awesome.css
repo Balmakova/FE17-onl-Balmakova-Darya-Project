@@ -1,20 +1,19 @@
-@font-face { 
-    font-family: OpenSans-Regular; /* Гарнитура шрифта */ 
-    src: url(../fonts/Open_Sans/OpenSans-Regular.ttf); /* Путь к файлу со шрифтом */ 
+/* @font-face { 
+    font-family: OpenSans-Regular;
+    src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
 } 
 
 @font-face { 
-    font-family: OpenSans-Bold; /* Гарнитура шрифта */ 
-    src: url(../fonts/Open_Sans/OpenSans-Bold.ttf); /* Путь к файлу со шрифтом */ 
+    font-family: OpenSans-Bold; 
+    src: url(../fonts/Open_Sans/OpenSans-Bold.ttf);
 } 
 
 @font-face { 
-    font-family: Raleway-Regular; /* Гарнитура шрифта */ 
-    src: url(../fonts/Raleway/static/Raleway-Regular.ttf); /* Путь к файлу со шрифтом */ 
-} 
+    font-family: Raleway-Regular;
+    src: url(../fonts/Raleway/static/Raleway-Regular.ttf);
+}  */
 .awesome {
-    padding-top: 100px ;
-    padding-bottom: 109px;
+    padding: 100px 0;
 }
 .container {
     max-width: 1170px;
@@ -25,37 +24,28 @@
     flex-direction: column;
 }
 .awesome-title {
-    font-family: Raleway-Regular;
-    font-size: 36px;
-    text-transform: uppercase;
-    line-height: 42px;
-    color: #212121;
     margin-bottom: 25px;
 }
 .awesome-line {
-    width: 64px;
-    border-bottom: 2px solid #D98943;
     margin-bottom: 30px;
 }
 .awesome-desc {
-    font-family: OpenSans-Regular;
-    font-size: 14px;
-    line-height: 19px;
-    color: #86878B;
     margin-bottom: 36px;
 }
 .awesome-wrapper {
+    margin: 0 -15px;
     display: flex;
-    justify-content: space-between;
-    padding-top: 31px;
-    padding-bottom: 109px;
+    justify-content: space-around;
 }
 .awesome-card {
+    max-width: 33.33%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 16px;
-    max-width: 33.33%;
+    padding-top: 31px;
+    padding-bottom: 9px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 .awesome-image {
     width: 70px;
@@ -71,7 +61,7 @@
 
 }
 .awesome-subtitle {
-    font-family: OpenSans-Bold;
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     line-height: 27px;
     text-align: center;
@@ -79,7 +69,7 @@
     margin-bottom: 16px;
 }
 .awesome-text p{
-    font-family: OpenSans-Regular;
+    font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     font-size: 14px;
     line-height: 19px;

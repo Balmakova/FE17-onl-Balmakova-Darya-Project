@@ -6,3 +6,24 @@
   margin: auto;
   padding: 0 15px;
 }
+.section-title {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  color: #212121;
+  text-transform: uppercase;
+}
+.section-line {
+  width: 64px;
+  border-bottom: 2px solid #D98943;
+}
+.section-desc p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 19px;
+  color: #86878B;
+}
