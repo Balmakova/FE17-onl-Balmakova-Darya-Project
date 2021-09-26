@@ -1,14 +1,6 @@
 .awesome {
     padding: 100px 0;
 }
-.container {
-    max-width: 1170px;
-    padding: 0 15px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
 .awesome-title {
     margin-bottom: 25px;
 }

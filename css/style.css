@@ -1,10 +1,14 @@
 @import url("../css/reset.css");
 @import url("../css/awesome.css");
+@import url("../css/price.css");
 
 .container {
   max-width: 1170px;
   margin: auto;
   padding: 0 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .section-title {
   font-family: 'Raleway', sans-serif;
