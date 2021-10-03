@@ -1,16 +1,26 @@
 @import url("../css/reset.css");
+@import url("../css/fonts.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+
 @import url("../css/awesome.css");
 @import url("../css/price.css");
+@import url("../css/customers.css");
+@import url("../css/axure.css");
 
+
+
+html{
+  font-family: 'Open Sans', 'Raleway', sans-serif;
+}
 .container {
   max-width: 1170px;
   margin: auto;
   padding: 0 15px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+  position: relative;
+  z-index: 2;
 }
 .section-title {
+  text-align: center;
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -20,10 +30,13 @@
   text-transform: uppercase;
 }
 .section-line {
+  text-align: center;
   width: 64px;
   border-bottom: 2px solid #D98943;
+  
 }
 .section-desc p{
+  text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-style: normal;

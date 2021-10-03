@@ -2,17 +2,22 @@
     padding: 100px 0;
 }
 .awesome-title {
-    margin-bottom: 25px;
+    margin: 0 auto 30px;
 }
-.awesome-line {
-    margin-bottom: 30px;
+.awesome-title::after {
+    content: '';
+    display: block;
+    margin: auto;
+    width: 64px;
+    border-bottom: 2px solid #D98943;
+    padding-top: 25px;
 }
 .awesome-desc {
-    margin-bottom: 36px;
+    margin: 0 auto 36px;
 }
 .awesome-wrapper {
-    margin: 0 -15px;
     display: flex;
+    margin: 0 -15px;
     justify-content: space-around;
 }
 .awesome-card {
@@ -25,6 +30,10 @@
     margin-left: 15px;
     margin-right: 15px;
 }
+.awesome-icon{
+    font-size: 30px;
+    color: #D98943;
+}
 .awesome-image {
     width: 70px;
     height: 70px;
@@ -35,9 +44,7 @@
     align-items: center;
     margin-bottom: 30px;
 }
-.awesome.icon {
 
-}
 .awesome-subtitle {
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
