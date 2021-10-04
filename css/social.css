@@ -1,0 +1,84 @@
+.social {
+    background: #F8EFEF;
+    padding: 14px 0;
+}
+.social-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-text {
+    display: flex;
+    flex-direction: column;
+}
+.social-title {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #333333;
+    text-transform: capitalize;
+}
+.social-desc p{
+    max-width: 365px;
+    text-align: left;
+}
+.social-icons {
+    display: flex;
+}
+.social-item {
+    margin-right: 60px;
+}
+.social-item:last-child{
+    margin-right: 0;
+}
+.social-item__link{
+    display: block;
+
+}
+.social-item__link:hover{
+    animation-name: rotate;
+    animation-duration: 0.3s;
+    transition-timing-function: ease;
+}
+.social-item__link i{
+    font-size: 35px;
+    color:#86878B;
+    transition: 0.2s;
+}
+.social-item__link i:hover{
+    transform: scale(1.5);
+}
+
+.facebook:hover{
+    color: #3b5998;
+}
+.fa-twitter:hover {
+    color:#00acee;
+}
+.fa-google-plus-g:hover {
+    color:#db4a39;
+}
+.fa-pinterest:hover {
+    color:#e62c2c ;
+}
+.fa-instagram:hover {
+    color:#be16be;
+}
+.fa-viber:hover{
+    color:#7b16be;
+}
+.fa-whatsapp:hover {
+    color:#43d854;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg); 
+        
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
