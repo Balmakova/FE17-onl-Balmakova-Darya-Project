@@ -1,0 +1,58 @@
+.header {
+    background: #000000;
+    padding: 20px 0;
+}
+.header-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo {
+    font-family: 'Raleway',sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    position: relative;
+}
+.header-logo::after{
+    content: "it";
+    display: inline-block;
+    position: absolute;
+    left: 100%;
+    color: #D98943;
+    text-transform: uppercase;
+}
+.nav-list {
+    display: flex;
+}
+.nav-link {
+    margin-right: 48px;
+}
+.nav-link:last-child{
+    margin-right: 0;
+}
+.nav-link__a {
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.7);
+    position: relative;
+    cursor: pointer;
+}
+
+.nav-link__a::after{
+    content: "";
+    display: block;
+    width: 0%;
+    position: absolute;
+    top: 100%;
+    border-bottom: 2px solid #D98943;
+    transition: 0.2s;
+}
+.nav-link__a:hover::after{
+    width: 100%;
+}
