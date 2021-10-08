@@ -8,8 +8,7 @@
 @import url("../css/price.css");
 @import url("../css/customers.css");
 @import url("../css/axure.css");
-
-
+@import url("../css/footer.css");
 
 html{
   font-family: 'Open Sans', 'Raleway', sans-serif;
@@ -29,12 +28,6 @@ html{
   color: #212121;
   text-transform: uppercase;
 }
-.section-line {
-  text-align: center;
-  width: 64px;
-  border-bottom: 2px solid #D98943;
-  
-}
 .section-desc p{
   text-align: center;
   font-family: 'Open Sans', sans-serif;
@@ -43,3 +36,4 @@ html{
   line-height: 19px;
   color: #86878B;
 }
+

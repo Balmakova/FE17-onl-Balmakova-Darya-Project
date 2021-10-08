@@ -1,0 +1,50 @@
+.footer {
+    background-color: #000000;
+    padding: 30px 0 15px;
+}
+.footer-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 317px;
+    margin: 0 auto 18px;
+}
+.footer-link i{
+    color: #E2E2E2;
+    font-size: 23px;
+    transition: 0.1s;
+}
+.footer-link i:hover{
+    transform: scale(1.2);
+}
+.fa-facebook-f:hover{
+    color: #3b5998;
+}
+.fa-twitter:hover {
+    color:#00acee;
+}
+.fa-google-plus-g:hover {
+    color:#db4a39;
+}
+.fa-pinterest:hover {
+    color:#e62c2c ;
+}
+.fa-instagram:hover {
+    color:#be16be;
+}
+.fa-viber:hover{
+    color:#7b16be;
+}
+.fa-whatsapp:hover {
+    color:#43d854;
+}
+.footer-copyright {
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0 auto;
+    text-transform: capitalize;
+}

@@ -30,7 +30,6 @@
     line-height: 42px;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin: 0 auto 34px;
 }
 .axure-title::after {
     content: '';
@@ -38,7 +37,7 @@
     margin: auto;
     width: 64px;
     border-bottom: 2px solid #FFFFFF;
-    padding-top: 34px;
+    margin: 34px auto;
 }
 .axure-desc{
     margin: 0 auto 57px;

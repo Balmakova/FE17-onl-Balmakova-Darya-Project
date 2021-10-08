@@ -3,6 +3,7 @@
     padding: 14px 0;
 }
 .social-wrapper {
+    margin: 0 -15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,6 +11,7 @@
 .social-text {
     display: flex;
     flex-direction: column;
+    margin: 0 15px;
 }
 .social-title {
     font-family: Open Sans;
@@ -18,13 +20,15 @@
     line-height: 27px;
     color: #333333;
     text-transform: capitalize;
+    margin-bottom: 14px;
 }
-.social-desc p{
+.social-text .social-desc p{
     max-width: 365px;
-    text-align: left;
+    text-align: left; 
 }
 .social-icons {
     display: flex;
+    margin: 0 15px;
 }
 .social-item {
     margin-right: 60px;
@@ -50,7 +54,7 @@
     transform: scale(1.5);
 }
 
-.facebook:hover{
+.fa-facebook-f:hover{
     color: #3b5998;
 }
 .fa-twitter:hover {

@@ -1,8 +1,5 @@
 .awesome {
-    padding: 100px 0;
-}
-.awesome-title {
-    margin: 0 auto 30px;
+    padding: 100px 0 116px;
 }
 .awesome-title::after {
     content: '';
@@ -10,10 +7,11 @@
     margin: auto;
     width: 64px;
     border-bottom: 2px solid #D98943;
-    padding-top: 25px;
+    margin-top: 25px;
+    margin-bottom: 30px;
 }
 .awesome-desc {
-    margin: 0 auto 36px;
+    margin: 0 auto 68px;
 }
 .awesome-wrapper {
     display: flex;
@@ -25,8 +23,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 31px;
-    padding-bottom: 9px;
     margin-left: 15px;
     margin-right: 15px;
 }
