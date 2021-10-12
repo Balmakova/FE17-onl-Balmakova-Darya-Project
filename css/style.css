@@ -3,11 +3,13 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
 
 @import url("../css/header.css");
+@import url("../css/firstscreen.css");
 @import url("../css/social.css");
 @import url("../css/awesome.css");
 @import url("../css/price.css");
 @import url("../css/customers.css");
 @import url("../css/axure.css");
+@import url("../css/contacts.css");
 @import url("../css/footer.css");
 
 html{

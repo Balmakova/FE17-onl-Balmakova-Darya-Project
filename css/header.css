@@ -1,6 +1,10 @@
 .header {
     background: #000000;
     padding: 20px 0;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 50;
 }
 .header-row{
     display: flex;
@@ -42,6 +46,7 @@
     color: rgba(255, 255, 255, 0.7);
     position: relative;
     cursor: pointer;
+    transition: 0.2s;
 }
 
 .nav-link__a::after{
@@ -52,6 +57,9 @@
     top: 100%;
     border-bottom: 2px solid #D98943;
     transition: 0.2s;
+}
+.nav-link__a:hover{
+color: rgba(255, 255, 255, 0.863);
 }
 .nav-link__a:hover::after{
     width: 100%;
